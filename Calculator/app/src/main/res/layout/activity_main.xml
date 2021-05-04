@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layoyt_centerHorizontal = "true"
-        android:layout_margin="48dp"
+        android:layout_marginTop="75dp"
+        android:textSize="55sp"
         android:text="12412414"
 
         tools:ignore="MissingConstraints" />
@@ -41,7 +42,7 @@
             <Button style="@style/calc_button"
                 android:text="%"
                 />
-            <Button style="@style/calc_button"
+            <Button style="@style/calc_buttonRed"
                 android:text="/"
                 />
         </LinearLayout>
