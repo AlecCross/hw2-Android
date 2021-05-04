@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoyt_centerHorizontal = "true"
+        android:layout_margin="48dp"
+        android:text="12412414"
+
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_below="@id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+
+            <Button style="@style/calc_button"
+                android:text="C"
+                />
+            <Button style="@style/calc_button"
+                android:text="+/-"
+                />
+            <Button style="@style/calc_button"
+                android:text="%"
+                />
+            <Button style="@style/calc_button"
+                android:text="/"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+
+            <Button style="@style/calc_button"
+                android:text="7"
+                />
+            <Button style="@style/calc_button"
+                android:text="8"
+                />
+            <Button style="@style/calc_button"
+                android:text="9"
+                />
+            <Button style="@style/calc_buttonRed"
+                android:text="x"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <Button style="@style/calc_button"
+                android:text="4"
+                />
+            <Button style="@style/calc_button"
+                android:text="5"
+                />
+            <Button style="@style/calc_button"
+                android:text="6"
+                />
+            <Button style="@style/calc_buttonRed"
+
+                android:text="-"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <Button style="@style/calc_button"
+                android:text="1"
+                />
+            <Button style="@style/calc_button"
+                android:text="2"
+                />
+            <Button style="@style/calc_button"
+                android:text="3"
+                />
+            <Button style="@style/calc_buttonRed"
+                android:text="+"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <Button style="@style/calc_button"
+                android:text="0"
+                />
+
+            <Button style="@style/calc_button"
+                android:text="0"
+                android:visibility="invisible"
+                />
+
+            <Button style="@style/calc_button"
+                android:text="."
+                />
+            <Button style="@style/calc_buttonRed"
+
+                android:text="="
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
